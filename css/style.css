@@ -81,10 +81,9 @@ footer address:last-child {
 		transform: translate(0, -80%);
 		width: 50%;
 	}
-	.container
 }
 
 .topCasaFina-bannerWrapper {
-		position: relative;
-		height: 100%;
-	}
+	position: relative;
+	height: 100%;
+}
