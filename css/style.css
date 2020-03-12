@@ -8,10 +8,11 @@ body {
 }
 
 header {
-	background-image: url(../img/castelo.jpg);
+	background-image: url(/img/castelo.jpg);
 	background-size: cover;
 	background-position: top center;
 	height: 100%;
+	position: relative;
 }
 
 header h1 {
@@ -27,8 +28,8 @@ header h1 {
 	border-radius: 5px;
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	left: 40%;
+	transform: translate(-40%, -40%);
 	transition: .3s;
 }
 
@@ -64,8 +65,13 @@ footer address:last-child {
 }
 
 @media(min-width: 768px) {
+	.coluna-2 {
+		width: 50%;
+		float: left;
+	}
+
 	#paineis-sobre {
-		margin-top: 0;	
+		margin-top: 0;
 	}
 }
 
@@ -75,11 +81,10 @@ footer address:last-child {
 		transform: translate(0, -80%);
 		width: 50%;
 	}
+	.container
+}
 
-	.topCasaFina-bannerWrapper {
+.topCasaFina-bannerWrapper {
 		position: relative;
 		height: 100%;
 	}
-}
-
-

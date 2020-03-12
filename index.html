@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <title>House!</title>
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -31,61 +31,69 @@
                 </div>
             </div>
         </nav>
+        <div class="container topCasaFina-bannerWrapper">
+            <div class="topCasaFina-banner">
+                <h1>TopCasaFina Arquitetura</h1>
+                <p>Projetando a casa dos sonhos desde 2000 A.C</p>
+                <button class="btn btn-primary btn-lg"> Contate-nos agora</button>
+            </div>
+        </div>
     </header>
     <!--Sobre Nós-->
     <section class="container" id="sobre-nos">
         <h2>Sobre Nós</h2>
-        <img src="./img/empresa.jpg" alt="empresa" class="img-responsive">
+        <div class="row">
+            <img class="img-responsive col-sm-6" src="./img/empresa.jpg" alt="empresa">
 
-        <div id="paineis-sobre" class="panel-group">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#p1" data-parent="#paineis-sobre">Desde 1994</h3>
-                </div>
-                <div id="p1" class="collapse in">
-                    <div class="panel-body">
-                        <p>
-                            Lorem ipsum justo egestas rhoncus integer rutrum sollicitudin blandit imperdiet sagittis dolor,
-                            cubilia condimentum leo pretium in velit dictumst habitant tempus gravida. 
-                            fames facilisis aliquet odio neque platea vestibulum euismod eleifend, imperdiet orci fringilla 
-                            torquent quisque vel id.
-                        </p>
+            <div id="paineis-sobre" class="panel-group coluna-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#p1" data-parent="#paineis-sobre">Desde 1994</h3>
+                    </div>
+                    <div id="p1" class="collapse in">
+                        <div class="panel-body">
+                            <p>
+                                Lorem ipsum justo egestas rhoncus integer rutrum sollicitudin blandit imperdiet sagittis dolor,
+                                cubilia condimentum leo pretium in velit dictumst habitant tempus gravida. 
+                                fames facilisis aliquet odio neque platea vestibulum euismod eleifend, imperdiet orci fringilla 
+                                torquent quisque vel id.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#p2" data-parent="#paineis-sobre">Mudanças em 1999</h3>
-                </div>
-                <div id="p2" class="collapse">
-                    <div class="panel-body">
-                        <p>
-                            etiam orci tortor id cras ultricies sapien ante nostra lacinia bibendum,
-                            odio hendrerit per elementum sem suspendisse potenti consequat.
-                            odio lectus vivamus ad duis purus class commodo, eros condimentum dapibus sed dapibus inceptos
-                            eu purus fusce at convallis torquent. euismod nunc eleifend dolor a dolor at leo orci,
-                            euismod ut rhoncus tempus pellentesque aliquam convallis gravida,
-                            adipiscing molestie metus elit risus bibendum sagittis. 
-                        </p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#p2" data-parent="#paineis-sobre">Mudanças em 1999</h3>
+                    </div>
+                    <div id="p2" class="collapse">
+                        <div class="panel-body">
+                            <p>
+                                etiam orci tortor id cras ultricies sapien ante nostra lacinia bibendum,
+                                odio hendrerit per elementum sem suspendisse potenti consequat.
+                                odio lectus vivamus ad duis purus class commodo, eros condimentum dapibus sed dapibus inceptos
+                                eu purus fusce at convallis torquent. euismod nunc eleifend dolor a dolor at leo orci,
+                                euismod ut rhoncus tempus pellentesque aliquam convallis gravida,
+                                adipiscing molestie metus elit risus bibendum sagittis. 
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#p3" data-parent="#paineis-sobre">Inovamos em 1999</h3>
-                </div>
-                <div id="p3" class="collapse">
-                    <div class="panel-body">
-                        <p>
-                            Lorem ipsum ut euismod cras amet ligula ac bibendum elementum augue,
-                            per habitant integer etiam sapien ornare lacus nullam dui proin lectus,
-                            litora laoreet inceptos vitae vel pellentesque sapien et aptent.
-                        </p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#p3" data-parent="#paineis-sobre">Inovamos em 1999</h3>
+                    </div>
+                    <div id="p3" class="collapse">
+                        <div class="panel-body">
+                            <p>
+                                Lorem ipsum ut euismod cras amet ligula ac bibendum elementum augue,
+                                per habitant integer etiam sapien ornare lacus nullam dui proin lectus,
+                                litora laoreet inceptos vitae vel pellentesque sapien et aptent.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
     <div class="jumbotron">
         <div class="container">
@@ -96,41 +104,52 @@
     <!--Nossos Projetos-->
     <section class="container" id="nossos-projetos">
         <h2>Nossos Projetos</h2>
-
-        <figure class="img-thumbnail">
-            <img src="./img/projetos/casa-castelo.png" alt="casa-castelo" class="img-responsive">
-            <figcaption  class="caption">
-                <h3>Casa Castelo</h3>
-                <p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
-            </figcaption>
-        </figure>
-        <div class="img-thumbnail">
-            <img src="./img/projetos/casa-lago.png" alt="casa-lago" class="img-responsive">
-            <figure class="caption">
-                <h3>Casa Lago</h3>
-                <p>A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
-            </figure>
-        </div>
-        <div class="img-thumbnail">
-            <img src="./img/projetos/mercado-marapira.png" alt="mercado-marapira" class="img-responsive">
-            <figure class="caption">
-                <h3>Mercado Marapira</h3>
-                <p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
-            </figure>
-        </div>
-        <div class="img-thumbnail">
-            <img src="./img/projetos/palacio-dionisio.png" alt="palacio-dionisio" class="img-responsive">
-            <figure class="caption">
-                <h3>Palácio Dionísio</h3>
-                <p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
-            </figure>
-        </div>
-        <div class="img-thumbnail">
-            <img src="./img/projetos/residencia-ludi.png" alt="residencia-ludi" class="img-responsive">
-            <figure class="caption">
-                <h3>Residência Ludi</h3>
-                <p>A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
-            </figure>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail ">
+                    <img src="./img/projetos/casa-castelo.png" alt="casa-castelo" class="img-responsive">
+                    <figcaption  class="caption">
+                        <h3>Casa Castelo</h3>
+                        <p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="./img/projetos/casa-lago.png" alt="casa-lago" class="img-responsive">
+                    <figcaption class="caption">
+                        <h3>Casa Lago</h3>
+                        <p>A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="./img/projetos/mercado-marapira.png" alt="mercado-marapira" class="img-responsive">
+                    <figcaption class="caption">
+                        <h3>Mercado Marapira</h3>
+                        <p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="./img/projetos/palacio-dionisio.png" alt="palacio-dionisio" class="img-responsive">
+                    <figcaption class="caption">
+                        <h3>Palácio Dionísio</h3>
+                        <p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="./img/projetos/residencia-ludi.png" alt="residencia-ludi" class="img-responsive">
+                    <figcaption class="caption">
+                        <h3>Residência Ludi</h3>
+                        <p>A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
+                    </figcaption>
+                </figure>
+            </div>
         </div>
     </section>
     <!--Depoimentos-->
@@ -182,9 +201,11 @@
     </section>
     <!--Vídeo Institucional-->
     <section class="container" id="video-institucional">
-        <h2>Vídeo Institucional</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Py1Aygel" frameborder="0" allowfullscreen></iframe>
+        <div class="row">
+            <h2>Vídeo Institucional</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Pv1AygeI" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
     <!--Contato-->
@@ -238,8 +259,8 @@
             Email: contato.topcasafina@alura.com.br
         </address>
     </footer>
-
-    <script src="./bootstrap/js/jquery.js"></script>
+    <script src="./js/jquery.js"></script>
     <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/navbar-animation-fix.js"></script>
 </body>
 </html>
